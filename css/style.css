@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto';
+}
+
+.body {
+    flex: 1;
+    margin-top: 0;
+}
+
+.first_section, .header {
+    background-color: #1f2937;
+} 
+
+.hero_text, .header a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+#logo, .hero_main {
+    color: #F9FAF8;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero_main {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.sign_up_btn {
+    color: #3882F6;;
+}
+
+.info_header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.third_section{
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+
+.header, .header ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header {
+    padding: 24px;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.first_section {
+    margin: 0;
+}
+
+
